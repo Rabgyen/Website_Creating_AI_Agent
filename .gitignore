@@ -1,3 +1,6 @@
 .env
 venv
 __pycache__
+index.html
+style.css
+script.js
