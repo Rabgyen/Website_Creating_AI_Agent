@@ -1,6 +1,4 @@
 .env
 venv
 __pycache__
-index.html
-style.css
-script.js
+Generated_response
