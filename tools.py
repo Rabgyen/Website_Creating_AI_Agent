@@ -1,7 +1,8 @@
 from langchain.tools import tool 
 import os
+from base64 import b64encode
 
-project_dir = "Generated_respone"
+project_dir = "Generated_response"
 
 os.makedirs(project_dir, exist_ok=True)
 
@@ -33,3 +34,4 @@ def create_file(file_path: str, content: str):
         file.write(content)
 
     return f"Created file at {file_path}"
+
