@@ -189,6 +189,32 @@ Then run the project:
 ```bash
 py main.py
 ```
+Enter the prompt:
+
+```bash
+Hello, how may i help you ?: create me a coffee website using {image_name} as a reference.
+```
+or just 
+
+```bash
+Hello, how may i help you ?: create me a coffee website.
+```
+
+## Result
+
+The website will be created inside a new directory called Generated_response within the current directory.
+
+Generated_response Structure may include:
+
+```text
+Generated_response/
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── index.html
+```
+
 
 ## What This Project Demonstrates
 
